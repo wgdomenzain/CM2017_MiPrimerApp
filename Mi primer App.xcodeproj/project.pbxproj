@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D1663A761F60D35200153BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1663A751F60D35200153BF8 /* main.m */; };
 		D1663A791F60D35200153BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1663A781F60D35200153BF8 /* AppDelegate.m */; };
-		D1663A7C1F60D35200153BF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1663A7B1F60D35200153BF8 /* ViewController.m */; };
+		D1663A7C1F60D35200153BF8 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D1663A7B1F60D35200153BF8 /* Home.m */; };
 		D1663A7F1F60D35200153BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1663A7D1F60D35200153BF8 /* Main.storyboard */; };
 		D1663A821F60D35200153BF8 /* Mi_primer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1663A801F60D35200153BF8 /* Mi_primer_App.xcdatamodeld */; };
 		D1663A841F60D35200153BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1663A831F60D35200153BF8 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		D1663A751F60D35200153BF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1663A771F60D35200153BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1663A781F60D35200153BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1663A7A1F60D35200153BF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1663A7B1F60D35200153BF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1663A7A1F60D35200153BF8 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		D1663A7B1F60D35200153BF8 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D1663A7E1F60D35200153BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1663A811F60D35200153BF8 /* Mi_primer_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mi_primer_App.xcdatamodel; sourceTree = "<group>"; };
 		D1663A831F60D35200153BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		D1663A731F60D35200153BF8 /* Mi primer App */ = {
 			isa = PBXGroup;
 			children = (
-				D1663A771F60D35200153BF8 /* AppDelegate.h */,
-				D1663A781F60D35200153BF8 /* AppDelegate.m */,
-				D1663A7A1F60D35200153BF8 /* ViewController.h */,
-				D1663A7B1F60D35200153BF8 /* ViewController.m */,
+				D1663A8F1F60D3E600153BF8 /* Main */,
+				D1663A8E1F60D3D700153BF8 /* Controllers */,
 				D1663A7D1F60D35200153BF8 /* Main.storyboard */,
 				D1663A831F60D35200153BF8 /* Assets.xcassets */,
 				D1663A851F60D35200153BF8 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				D1663A751F60D35200153BF8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1663A8E1F60D3D700153BF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1663A7A1F60D35200153BF8 /* Home.h */,
+				D1663A7B1F60D35200153BF8 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D1663A8F1F60D3E600153BF8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1663A771F60D35200153BF8 /* AppDelegate.h */,
+				D1663A781F60D35200153BF8 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1663A7C1F60D35200153BF8 /* ViewController.m in Sources */,
+				D1663A7C1F60D35200153BF8 /* Home.m in Sources */,
 				D1663A791F60D35200153BF8 /* AppDelegate.m in Sources */,
 				D1663A821F60D35200153BF8 /* Mi_primer_App.xcdatamodeld in Sources */,
 				D1663A761F60D35200153BF8 /* main.m in Sources */,

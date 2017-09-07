@@ -6,13 +6,13 @@
 //  Copyright © 2017 wgdomenzain. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Home.h"
 
-@interface ViewController ()
+@interface Home ()
 
 @end
 
-@implementation ViewController
+@implementation Home
 
 - (void)viewDidLoad {
     [super viewDidLoad];
